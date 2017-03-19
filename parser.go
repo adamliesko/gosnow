@@ -2,7 +2,7 @@ package gosnow
 
 /*
 #cgo CFLAGS: -I./drafter/src/ -I./drafter/ext/snowcrash/src/
-#cgo LDFLAGS: -ldrafter -L"./drafter/build/out/Release/" -L"./drafter/build/out/Release/lib.target/"
+#cgo LDFLAGS: -ldrafter -L"./drafter/build/out/Release/"
 #include <stdlib.h>
 #include <stdio.h>
 #include "cdrafter.h"
